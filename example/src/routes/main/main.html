@@ -1,0 +1,16 @@
+<div layout="row" layout-sm="column" class="modular_content">
+  <md-whiteframe class="md-whiteframe-z1" flex ng-cloak >
+    {{ vm.loadingMessage }}
+    <div class="error"> {{ vm.errorMessage }} </div>
+    <div class="card-container">
+        <span ng-repeat="card in vm.cards" class="item">
+          <ul class="fields">
+            <li class="name"> {{ card.name }} </li>
+            <img class="profile-pic" ng-src="{{card.img}}" alt="Profile picture" />
+            <li>id: {{ card.id }}</li>
+            <li>Age: {{ card.age }}</li>
+          </ul>
+        </span>
+    </div>
+  </md-whiteframe>
+</div>

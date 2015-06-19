@@ -1,0 +1,62 @@
+{
+  "config": {
+    "BASE_URL": "http://hackstack-demo-server.herokuapp.com/cards",
+    "mockObject": {
+      "age": 20,
+      "name": "Chuck"
+    },
+    "mockData": [
+      {
+        "age": 24,
+        "id": 0,
+        "name": "Josefina",
+        "img": "http://i.imgur.com/yQFqnK0.png"
+      },
+      {
+        "age": 42,
+        "id": 1,
+        "name": "Josep"
+      },
+      {
+        "age": 19,
+        "id": 2,
+        "name": "Simon"
+      },
+      {
+        "age": 32,
+        "id": 3,
+        "name": "Harry"
+      },
+      {
+        "age": 30,
+        "id": 4,
+        "name": "Vi"
+      },
+      {
+        "age": 27,
+        "id": 5,
+        "name": "Jule"
+      },
+      {
+        "age": 42,
+        "id": 6,
+        "name": "Brice"
+      },
+      {
+        "age": 21,
+        "id": 7,
+        "name": "Hiedi"
+      },
+      {
+        "age": 38,
+        "id": 8,
+        "name": "Val"
+      },
+      {
+        "age": 29,
+        "id": 9,
+        "name": "Kylee"
+      }
+    ]
+  }
+}
